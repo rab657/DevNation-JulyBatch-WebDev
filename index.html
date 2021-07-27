@@ -4,139 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Introduction to HTML</title>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+      p {
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: underline;
+      }
+    </style>
+
+    <title>Intro to CSS</title>
   </head>
-
   <body>
-    <!-- Headings -->
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
-    <h5>Heading 5</h5>
-    <h6>Heading 6</h6>
+    <h1 style="color: blue">Introduction to CSS</h1>
 
-    <br />
+    <div class="main">
+      <p>This is the first class where we'll learn CSS</p>
+    </div>
 
-    <!-- paragraph -->
-    <p>
-      This is <em>paragraph</em> and
-      <strong>I'm not writing this for the first time :D</strong>
-    </p>
+    <p>This p tag will inherit same styling</p>
 
-    <br />
-    <!-- list -->
-    <!-- ordered list -->
-    <ol>
-      <strong>List Items</strong>
-
-      <li>Apple</li>
-      <li>Mango</li>
-      <li>Banana</li>
-      <li>Strawberry</li>
-    </ol>
-
-    <br />
-    <!-- unordered list -->
-    <ul>
-      <strong>Languages/Frameworks</strong>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>React</li>
-    </ul>
-
-    <!-- tables -->
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Job Title</th>
-          <th>Comapany</th>
-        </tr>
-
-        <tr>
-          <tbody>
-            <td>Alwaz</td>
-            <td>MERN Stack Developer</td>
-            <td>DevNation</td>
-          </tbody>
-        </tr>
-
-        <tr>
-          <tbody>
-            <td>Sammit</td>
-            <td>MERN Stack Developer</td>
-            <td>DevNation</td>
-          </tbody>
-        </tr>
-
-        <tr>
-          <tbody>
-            <td>Zaid</td>
-            <td>Data Science</td>
-            <td>DevNation</td>
-          </tbody>
-        </tr>
-      </thead>
-    </table>
-
-    <br />
-
-    <!-- form -->
-    <form action="" method="POST">
-      <h2>A Simple Form</h2>
-
-      <div>
-        <label for="firstname">First Name</label>
-        <input type="text" placeholder="Enter first Name" />
-      </div>
-
-      <div>
-        <label for="lastname">Last Name</label>
-        <input type="text" placeholder="Enter Last Name" />
-      </div>
-
-      <div>
-        <label for="email">Email</label>
-        <input type="email" placeholder="Enter email" />
-      </div>
-
-      <div>
-        <label for="password">Password</label>
-        <input type="password" placeholder="Password" />
-      </div>
-
-      <div>
-        <label for="age">Age</label>
-        <input type="number" placeholder="Enter Age" />
-      </div>
-
-      <div>
-        <label for="date">Date Of Birth</label>
-        <input type="date" placeholder="Enter Date" />
-      </div>
-
-      <div>
-        <label for="gender">gender</label>
-        <select name="gender">
-          <option value="female">female</option>
-          <option value="male">male</option>
-          <option value="other">other</option>
-        </select>
-      </div>
-
-      <div>
-        <label for="firstname">First Name</label>
-        <input type="text" placeholder="Enter first Name" />
-      </div>
-
-      <input type="submit" name="Submit your form" value="Submit button" />
-    </form>
-
-    <!-- links -->
-    <h3>Follow Me on</h3>
-    <a href="https://github.com/Alwaz">Github</a>
-    <a href="https://alwazkazi3.medium.com/">Medium</a>
+    <a href="https://alwazkazi3.medium.com/">Follow me on Medium</a>
   </body>
 </html>
