@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="indiex.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@600;700;800&display=swap" rel="stylesheet">
+    <h1><div class="tittle"></div>main section of website</h1>
+</body>
+<p><div main="body">this my new assignment for html css  </div></p>
+
+
+<p><div class="name">
+    this my new class
+</div>
+     </p>
+    <p> <div class="age">17 year old</div></p>
+    <p><div class="study">study at devNation</div></p>
+    <p><div class="career">build a career</div></p>
+<div class="image">
+    <img src="data:image/png;base64,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" class="main"></div>
+
+</div>
+</html>
+
