@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-size:20px;
+        }
+        .parent{
+            font-size: 10px;
+        }
+        .em{
+            font-size: 2em;
+        }
+        .rem{
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="em">
+        I am using 'em' relative unit of font-size. I am 2em in size (=parent*2=10*2=20px)
+        </div>
+        <div class="rem">
+        I am using 'rem' relative unit of font-size. I am 1rem in size (=root*1=20*1=20px)
+        </div>
+    </div>
+    So both are equal sized like me (I am root=20px)
+</body>
+</html>

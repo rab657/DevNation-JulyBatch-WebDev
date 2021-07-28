@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+    <style>
+        *{
+    font-family: 'Gowun Dodum', sans-serif;
+    }
+    .overriding-font{
+        font-family: Arial;
+    }
+    </style>
+</head>
+<body>
+    <div>
+        This div and all other page uses imported fonts.
+    </div>
+    <div>
+        This is another div with imported font.
+    </div>
+    <div class="overriding-font">
+        This div is an exception.
+        <h1>This div uses Arial font.</h1>
+        <h2>We are overriding font.</h2>
+        <p>By using specificness of CSS.</p>
+    </div>
+</body>
+</html>
