@@ -1,0 +1,26 @@
+
+
+*{
+    font-size: 32px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+img{
+    width: 50%;
+    border: 5px solid black;
+}
+.base{
+    font-size: 32px;
+}
+.parent{
+    font-size: 16px;
+}
+.text1{
+    font-size: 1em;
+}
+.text2{
+    font-size: 1rem;
+}
