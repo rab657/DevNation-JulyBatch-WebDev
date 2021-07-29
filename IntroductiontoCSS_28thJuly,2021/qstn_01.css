@@ -1,0 +1,16 @@
+
+/*question_01*/
+body {
+    font-family: 'Inter', sans-serif;
+
+}
+
+
+
+/* create a class */
+.container {
+    background-color:coral;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
