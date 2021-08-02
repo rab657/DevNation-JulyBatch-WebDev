@@ -171,3 +171,9 @@ input[type=text], select, textarea {
     
     padding: 10px 40px 10px 40px;
 }
+.dnlogo{
+    position: relative;
+    right:30px;
+    top:20px;
+    width:18%;
+}
