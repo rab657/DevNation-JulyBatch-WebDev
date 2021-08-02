@@ -6,6 +6,7 @@
     --main-font-color: #f6f6f6;
     --sub-font-color: #777779;
     --links-icon-color: #626164;
+    --secondary-bg-color: #252525;
 }
 
 body {
@@ -38,7 +39,7 @@ nav {
     width: 100%;
     height: 15vh;
     position: fixed;
-    /* box-shadow: 0px 17px 32px 0px rgba(0,0,0,0.27); */
+    box-shadow: 0px 17px 32px 0px rgba(0,0,0,0.27); 
     top: 0;
     left: 0;
     z-index: 1;
@@ -125,8 +126,6 @@ ul.menu li a:hover {
 
 }
 
-
-/*  */
 .intro {
     width: 500px;
     
@@ -141,7 +140,7 @@ ul.menu li a:hover {
     
 }
 
-.intro .description {
+.description {
     font-size: 2em;
     color: var(--sub-font-color);
 }
@@ -160,7 +159,63 @@ ul.menu li a:hover {
     background: var(--button-links-color);
 } 
 
-.aboutme-container {
-    background: var(--links-icon-color);
 
+#aboutme-container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    background: var(--secondary-bg-color);
+    transform: translate(-50%,-50%);
+}
+
+.aboutme-heading {
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.intro_content {
+    font: 2em;
+}
+.my-desc {
+    /* background: chocolate;  */
+    max-width: 50%;
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+.my-desc .description {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+.content {
+    animation: slide 1s linear 0s 1 forwards;
+}
+
+.aboutme-container, .skills, .experience, .my-projects, .contact{
+    animation: slide 1s linear 0s 1 forwards;
+}
+
+@keyframes slide {
+    0%{opacity: 0;  padding: 0px 100px;}
+    50%{opacity: 0.5; padding: 0px 50px;}
+    75%{opacity: 0; padding: 0px 30px;}
+    100%{opacity: 1; padding: 0px 0px;}
 }
