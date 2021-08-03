@@ -1,0 +1,54 @@
+body{
+ background-color: lightgrey;
+
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.flex-container {
+    display: flex;
+    background-color:lightgrey;
+  }
+  
+  .flex-container > div {
+ 
+    margin: 5px;
+    padding-left: 10px;
+    text-align: center;
+
+    
+  }
+  .flex-container1,  .flex-container2   {
+    margin: 5px;
+    padding-left: 10px;
+    text-align: center;
+    display: flex;
+    background-color:lightgrey;
+  }
+
+ 
+  .devnation{
+    color:sienna;
+    font-size: 2.5ch;
+  }
+.main-image{
+    height: 59vh;
+    width: 25vw;
+
+}
+.main-image1{
+  height: 39vh;
+  width: 35vw;
+
+}
+.button:hover{
+	cursor: pointer;
+	background-color: #6e331a;
+}
+.button{
+	background-color: #995437;
+	color: white;
+	border: 1px solid #6e331a;
+	padding: 10px 20px;
+	margin-left: 502px;
+}
