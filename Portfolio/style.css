@@ -45,6 +45,8 @@ nav {
     z-index: 1;
 }
 
+
+
 a.logo-link {
     text-decoration: none;
     display: flex;
@@ -162,7 +164,7 @@ ul.menu li a:hover {
 
 #aboutme-container {
     width: 100%;
-    height: 50vh;
+    /* height: 50vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -170,7 +172,7 @@ ul.menu li a:hover {
     position: absolute;
     top: 125%;
     left: 50%;
-    background: var(--secondary-bg-color);
+    background: var(--main-font-color);
     transform: translate(-50%,-50%);
 }
 
@@ -181,12 +183,17 @@ ul.menu li a:hover {
     flex: 1;
     align-items: center;
     justify-content: center;
+    /* margin-bottom: -10px; */
     
 }
 
 
 .intro_content {
     font: 2em;
+}
+
+.aboutme-heading .intro_content {
+    color: var(--main-bg-color);
 }
 .my-desc {
     /* background: chocolate;  */
@@ -199,9 +206,11 @@ ul.menu li a:hover {
 }
 
 .my-desc .description {
-    font-size: 1rem;
+    font-size: 1.125em;
     text-align: center;
     line-height: 40px;
+    margin-top: unset;
+    color: var(--secondary-bg-color);
 }
 
 
@@ -224,7 +233,7 @@ ul.menu li a:hover {
 
 #skills {
     width: 100%;
-    height: 70vh;
+    /* height: 80vh;  */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -242,7 +251,7 @@ ul.menu li a:hover {
     width: 90%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center
     /* flex-grow: 1; */
 }
 
@@ -255,6 +264,7 @@ ul.menu li a:hover {
 .skill-name h3 {
     font-size: 1.875em;
     color: var(--main-font-color);
+    margin-bottom: -10px;
 }
 
 .row {
@@ -284,3 +294,80 @@ ul.menu li a:hover {
     color: var(--button-links-color) !important;
     font-size: 2.5em !important;
 }
+
+/* Skill section complete */
+
+
+/* Styling Project section */
+
+#my-projects {
+    width: 100vw;
+    /* height: 80vh; */
+    /* background: var(--secondary-bg-color); */
+    position: absolute;
+    top: 220%;
+    /* left: 50%; */
+}
+
+
+.project-text {
+    color: var(--main-bg-color);
+    margin: 5%;
+    letter-spacing: 2px;
+    font-size: 2em;
+    
+} 
+
+.project-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: var(--button-links-color); */
+}
+
+.project-img {
+    width: 30vw;
+    height: 50vh;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 3px 38px 1px rgba(0,0,0,0.75);
+}
+
+.project-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+
+.project-name {
+    font-size:1.9375em ;
+    color: var(--secondary-bg-color);
+}
+
+.project-description {
+    color: var(--sub-font-color);
+    font-size: 1.2em;
+}
+
+
+.project-details {
+
+    flex: 0.7;
+    
+}
+
+.project-details1 {
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+
+}
+
+
