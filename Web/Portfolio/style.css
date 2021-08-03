@@ -1,0 +1,140 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+.logo{
+    margin-left: 50px;
+    text-decoration: underline;
+}
+.links{
+    margin-right: 100px;
+}
+.links a{
+    margin-right: 30px;
+    text-decoration: none;
+    font-weight: 300;
+}
+.intro{
+    display: flex;
+    justify-content: space-around;
+}
+.intro-text{
+    width: 50%;
+    margin: 70px 0 0 70px;
+}
+.intro-heading{
+    font-size: 24px;
+    font-weight: 400;
+}
+.intro-image{
+    width: 50%;   
+}
+.intro-image img{
+    width: 40%;
+    height: auto;
+    margin: 70px 0 0 140px ;
+    border-radius: 55%;
+}
+.main-intro{
+    text-align: justify;
+    font-weight: 300;
+}
+.intro-heading{
+    margin-bottom: 20px;
+}
+.exp-div{
+    display: flex;
+    margin: 70px 0 0 70px;
+}
+.EandS{
+    width: 50%;
+}
+.EandS h1{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.skill-head{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.skill-list{
+    margin-left: 50px;
+    font-weight: 300;
+}
+.skill-list li{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.exp-head{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.first-skill,
+.second-skill,
+.third-skill{
+    font-weight: 400;
+    margin-left: 50px;
+}
+.jadu,
+.dev,
+.amal{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 50px;
+}
+.exp-text{
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.exp-image{
+    width: 40%;
+}
+.exp-image img{
+    width: 400px;
+    margin: 200px 0 0 30px;
+}
+.contact{
+    display: flex;
+}
+.contact-detail{
+    width: 50%;
+}
+.contact-from{
+    width: 50%;
+}
+.contact-head{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 50px 0 20px 70px;
+}
+.contact-list a{
+    font-weight: 300;
+}
+.contact-list li{
+    margin-bottom: 20px;
+    margin-left: 90px;
+    list-style-type: none;
+}
+.contact-form{
+    margin-top: 50px;
+}
+.contact-form input{
+    margin-bottom:20px;
+}
