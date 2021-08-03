@@ -1,0 +1,183 @@
+@charset "UTF-8";
+:root{
+mainbgcolor: blue
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color:rgb(105, 147, 184);
+}
+#main{
+    width: 100px;
+    height: 100vh;
+    position: relative;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px 30px rgb(0,0,0,000.01);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100;
+    z-index: 1;
+    background-color: rgba(0,0,0,0,02);
+
+    right: 0px;
+    }
+
+nav ul{
+    display: flex;
+    background-color: rgb(109, 26, 26);
+   
+   
+}
+nav ul li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 25px;
+    display: fex;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: rgb(245, 225, 225);
+    font-weight: 500;
+}
+nav ul a:hover{
+    background-color:blue;
+    color: #fff;
+    border-radius: 5px;
+   }
+.getintouch{
+   font-size: 0.9em;
+   font-weight: 500;
+    color: rgb(12, 3, 3);
+    text-transform: uppercase;
+    border-bottom: 2px solid darkslateblue;
+
+}
+.logo{
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 2rem;
+    font-weight: 500;
+    display: flex;
+    line-height: 50px;
+    height: 47px;
+    text-decoration:none;
+    text-decoration-color: cyan;
+    display: flex;
+
+}
+.logo:hover{
+color: cyan;
+border-radius: 4px solid;
+}
+nav .menu-button, nav .menu-icon{
+    display: none;
+}
+.intro{
+ width: 90%;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50% ,-50%);
+}
+.model{
+height: 500px;
+width: 500px;
+
+}
+ .model img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+   
+.name{
+    font-size: 1.3em;
+    margin: 0px 0px 10px 0px;
+    line-height: 60px;
+}
+p{
+ color: #000;
+ font-size: 1em;
+}
+.profile{
+    height: 44px;
+    width: 190px;
+    display: grid;
+    place-items: center;
+    background-color: violet;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+.projects{
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(45, 135, 45);
+    padding: 10px;
+    background-color: darkviolet;}
+
+.skills{
+    margin: 9px;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    background-color: rgb(23, 35, 89);
+
+}    
+.Contact{
+    margin: 9px;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    background-color: rgb(165, 168, 184);
+}    
+.Client{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    background-color: rgb(44, 44, 48);
+
+}    
+
+
+   
+footer{
+
+    margin: auto;
+    width: 100%;
+    border: 1px solid green;
+    padding: 10px;
+    background-color: rgb(44, 44, 48);
+    text-align: center;
+  
+}
+spaan{
+    font-weight: 700;
+     font-size: 1.6rem;
+     font:  sans-serif;
+    color: rgb(196, 131, 0);
+
+}  
