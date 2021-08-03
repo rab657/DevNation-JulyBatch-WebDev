@@ -17,8 +17,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* font for logo */
-/* font-family: 'WindSong', cursive; */
+
 
 #main {
     background: var(--main-bg-color); 
@@ -35,7 +34,6 @@ body {
 nav {
     display: flex;
     justify-content: space-around;
-    /* background: var(--main-bg-color); */
     width: 100%;
     height: 15vh;
     position: fixed;
@@ -58,6 +56,7 @@ a.logo-link {
     font-size: 2em;
     color: var(--main-font-color);
     font-weight: 700;
+    text-shadow: rgba(255,255,255,0.71) 0px 0px 8px;
 }
 
 
@@ -70,7 +69,6 @@ ul.menu {
         display: flex;
         align-items: center;
         list-style: none;
-        /* background: yellowgreen; */
         width: 50%;
         justify-content: space-around;
     
@@ -81,12 +79,20 @@ ul.menu li a {
     font-weight: 500;
     font-size: 1.175em;
     color: var(--sub-font-color);
+    transition: .4s;    
     font-family: 'Poppins', sans-serif;
   
 }
 
 ul.menu li a:hover {
-    color: var(--main-font-color);
+    padding: 5%;
+    background: var(--button-links-color);
+    display: grid;
+    text-align: center;
+    text-shadow: rgba(255,255,255,0.71) 0px 0px 8px;
+    padding: 20px;
+    border-radius: 47% 53% 82% 18% / 43% 42% 58% 57%;
+    color:var(--main-font-color)
 }
 
 
@@ -263,7 +269,6 @@ ul.menu li a:hover {
 
 #skills {
     width: 100%;
-    /* height: 80vh;  */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -277,12 +282,10 @@ ul.menu li a:hover {
 }
 
 .skill-text {
-    /* background: chartreuse; */
     width: 90%;
     display: flex;
     justify-content: center;
-    align-items: center
-    /* flex-grow: 1; */
+    align-items: center;
 }
 
 .skill-text h1 {
@@ -296,6 +299,7 @@ ul.menu li a:hover {
     color: var(--main-font-color);
     margin-bottom: -10px;
 }
+
 
 .row {
     display: flex;
@@ -317,7 +321,21 @@ ul.menu li a:hover {
     align-items: center;
     list-style: none;
     line-height: 2em;
+    cursor: pointer;
     color: var(--sub-font-color);
+    
+}
+
+.skill-box ul li {
+    transition: .3s;
+    
+}
+
+.skill-box ul li:hover {
+    font-size: 17px;
+    text-shadow: rgba(255,255,255,0.71) 0px 0px 8px;
+    color: var(--main-font-color);
+    
 }
 
 .fas {
