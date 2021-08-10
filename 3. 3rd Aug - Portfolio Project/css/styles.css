@@ -6,14 +6,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.fab{
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 20px;
+  }
+  i.material-icons{
+    font-size: 13px !important;
+    margin-right: 6px;
+  }
+
+
+body{
+    line-height: 1.8;
+}
 section{
     padding: 2em;
 }
-a{
+header{
+    min-height: 28em;
+}
+header > .container{
+    padding: 1.4em;
+    padding-bottom: 3em;
+}
+.header__content{
+    margin-bottom: 10em;
+    margin-top: 12em;
+    line-height: 2em;
+}
+.header__content__block{
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+.header__content__title{
+    font-size: 3em;
+    margin-bottom: 0.7em;
+}
+.header__content__sub-title{
+    font-size: 1.3em;
+}
+.header__content > div{
+    margin-top: 2.5em;
+}
+a, a:visited, a:active{
     text-decoration: none;
+    color: #fff;
 }
 .text-center{
     text-align: center;
+}
+.text-white{
+    color: #fff;
 }
 li{
     list-style-type: none;
@@ -32,6 +77,10 @@ div.navbar-collapse{
 .navbar{
     
     padding: 1.2em;
+}
+.navbar-brand{/* 
+    background: url('../assets/images/logo.png') no-repeat; */
+    font-size: 1.5em;
 }
 .page-section__paragraph{
     margin: 0 auto;
@@ -59,30 +108,78 @@ div.navbar-collapse{
     align-items: center;
     justify-content: space-evenly;
 }
-.flex-container{
-    display: flex;
-    justify-content: space-between;
-    min-width: 560px;
-}
 .button{
-    padding: 1em;
-    border-radius: 1em;
+    padding: 1em 3.2em;
+    border-radius: 2em;
+    font-weight: bold;
 }
 .button--colorful{
-    background-color: blue;
-    color:white
+    background-color: #7F56FD;
+    color:white;
+}
+ul.header__content__sub-title{
+    margin-bottom: 1em;
 }
 .header__button{
-    margin-top: 10px;
-    padding: .5em;
-    border-radius: 1em;
-    background-color: blue;
-    color:white
+    padding: 1.2em;
+    border-radius: 2em;
+    background-color: #fff;
+    color: #7F56FD;
 }
+.social-icon > ul >li{
+    display: inline-block;
+}
+.social-icon{
+    float: right;
+    margin-right: 3em;
+}
+.social-icon > ul{
+    
+}
+
+.flex-container-about{
+    display: flex;
+    justify-content: space-between;
+    min-width: 610px;
+}
+.about__content{
+    margin-left: 5em;
+    text-align: initial;
+}
+div.flex-container-about:nth-of-type(2) > div.CV:nth-of-type(2){
+    margin-left: -40px !important; 
+}
+
+
+
 .thumbnail{
     background-color: #fff;
     padding: 1.5em;
     box-shadow: 0px 2px 10px 0px rgb(0 0 0 / 15%);
+    width: 21em;
+    height: 13em;
+    border-radius: 0.6em;
+}
+.progress {
+    height: 0.6em; /* Can be anything */
+    position: relative;
+    margin: 1.8em;
+    background: #E1E1E1;
+    border-radius: 25px;
+    /* width: 16em; */
+  }
+  .progress-bar{
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+img[src*='title-style']{
+    margin-top: 1em;
 }
 .skill--bg{
     background-color: rgba(120, 88, 221, .9);
@@ -94,22 +191,59 @@ div.navbar-collapse{
 .flex-container-skills > div,.flex-container-services >div{
     padding: 2em;
 }
+
 .footer{
-    color:white
+    color:white;
+    padding: 1.7em 0;
+}
+footer > .container{
+    padding: 1.7em;
+}
+.footer__title{
+    margin-bottom: 1em;
 }
 .footer--bg{
     background-color: #27353B;
 }
+ul.footer__contact-information > li{
+    display: inline-block;
+    margin-left: 3em;
+}
+ul.footer__contact-information > li > *{
+    color: #9ca1a3;
+}
+.social-icon-footer{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.social-icon-footer > ul > li{
+    display: inline-block;
+}
 
 
 
 
 
 
-/* 
+.skill--bg {
+    background: url(../assets/images/skill-background.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.skill--bg:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(120, 88, 221, .9);
+    z-index: -1;
+}
 
 .header--bg{
-    background: url('images/header-background.png') no-repeat;
+    background: url('../assets/images/header-background.png') no-repeat;
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -127,4 +261,3 @@ div.navbar-collapse{
 , rgba(108,76,206, .9) 0%, rgba(127,86,253, .9) 100%);
     z-index: -1;
 }
- */

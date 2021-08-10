@@ -10,27 +10,22 @@
 
   <script src="https://kit.fontawesome.com/9278f4940d.js"></script>
   <link rel="stylesheet" href="assets/fonts/flat-icon/flaticon.css">
+  <link rel="stylesheet" href="assets/iconfont/material-icons.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
-  <style>
-    .fab{
-      font-size: 20px;
-      font-style: normal;
-      margin-left: 20px;
-    }
-  </style>
 </head>
 <body>
 <div id="content-wrapper">
   <header class="header header--bg" id="home">
     <div class="container">
-      <nav class="navbar">
+      <nav class="navbar text-white">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span> 
           </button>
+          <img src="assets/images/logo.png" alt="">
           <a class="navbar-brand" href="#">I'm Zubair</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
@@ -50,7 +45,7 @@
           </ul>
         </div>
       </nav>
-      <div class="header__content text-center">
+      <div class="header__content text-center text-white">
         <h1 class="header__content__block">HELLO</h1>
         <h1 class="header__content__title">I'M Muhammad Zubair</h1>
         <ul class="header__content__sub-title">
@@ -81,15 +76,15 @@
           <div class="row gutters-80 grid-container-1">
             <div class="col-md-4 g-c-1-item1">
               <div class="about__image">
-                <img src="images/mypic.png" alt="">
+                <img src="assets/images/mypic.png" alt="">
               </div>
-            </div>
+            </div> 
             <div class="col-md-8 about__content g-c-1-item2">
 
               <!--
               <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
               -->
-              <div class="row row--margin-top flex-container">
+              <div class="row row--margin-top flex-container-about">
                 <div class="col-md-4 about__content__text">
                   <p class="about__bio"><strong>NAME :</strong> Muhammad Zubair</p>
                   <p class="about__bio"><strong>AGE :</strong> 21</p>
@@ -99,14 +94,14 @@
                   <p class="about__bio"><strong>LOCATION :</strong> Lahore, Pakistan</p>
                 </div>
               </div>
-              <div class="row flex-container">
-                <div class="col-md-4">
-                  <a class="button button--colorful button--margin" href="https://drive.google.com/file/d/12FUG3OagoARg2v34L3cNhDos5ylwQfHj/view?usp=sharing" download="Muhammad Zubair -- CV">DOWNLOAD CV</a>
+              <div class="row flex-container-about">
+                <div class="col-md-4 CV">
+                  <a class="button button--colorful button--margin" href="https://drive.google.com/file/d/1F3sdTnFsGCi-D3eQMZzYZ_yK7W3w2U36/view?usp=sharing" download="Muhammad Zubair -- CV">DOWNLOAD CV</a>
                 </div>
 
                 
-                <div class="col-md-4">
-                  <a class="button button--colorful button--margin" href="https://drive.google.com/file/d/12FUG3OagoARg2v34L3cNhDos5ylwQfHj/view?usp=sharing">View CV</a>
+                <div class="col-md-4 CV">
+                  <a class="button button--colorful button--margin" href="https://drive.google.com/file/d/1F3sdTnFsGCi-D3eQMZzYZ_yK7W3w2U36/view?usp=sharing">View CV</a>
                 </div>
                 
                 
@@ -119,27 +114,27 @@
 
   <section class="skill skill--bg" id="skills">
     <div class="container skill__container--narrow">
-      <div class="page-section">
+      <div class="page-section text-center">
         <h2 class="page-section__title page-section__title--white text-center">MY SKILLS</h2>
         <img class="page-section__title-style" src="assets/images/title-style-white.png" alt="">
 
         <div class="row gutters-60 flex-container-skills">
           <div class="col-md-4">
             <div class="thumbnail text-center">
-              <img src="images/htmlcss.png" alt="">
+              <img src="assets/images/htmlcss.png" alt="">
               <h4 class="skill__single-part__title">HTML+CSS <--- Intermediate</h4>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7FB7FA;">
+                <div class="progress-bar" role="progressbar" style="width:66%;background-color: #7FB7FA;">
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="thumbnail text-center">
-              <img src="images/c++.png" alt="">
+              <img src="assets/images/c++.png" alt="">
               <h4 class="skill__single-part__title">C++ <--- Intermediate</h4>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:80%;background-color: #FFAC1B;;">
+                <div class="progress-bar" role="progressbar" style="width:66%;background-color: #FFAC1B;;">
                 </div>
               </div>
             </div>
@@ -147,10 +142,10 @@
           
           <div class="col-md-4">
             <div class="thumbnail text-center">
-              <img src="images/typing.png" alt="">
-              <h4 class="skill__single-part__title">Typing <--- Intermediate(40/WPM)</h4>
+              <img src="assets/images/typing.png" alt="">
+              <h4 class="skill__single-part__title">Typing <-- Intermediate(40/WPM)</h4>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:80%;background-color: #C99AFF;">
+                <div class="progress-bar" role="progressbar" style="width:66%;background-color: #C99AFF;">
                 </div>
               </div>
             </div>
@@ -160,30 +155,30 @@
         <div class="row gutters-60 flex-container-skills">
           <div class="col-md-4">
             <div class="thumbnail text-center">
-              <img src="images/django.png" alt="">
+              <img src="assets/images/django.png" alt="">
               <h4 class="skill__single-part__title">Django Framework <-- Beginner</h4>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7FB7FA;">
+                <div class="progress-bar" role="progressbar" style="width:33%;background-color: #7FB7FA;">
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="thumbnail text-center">
-              <img src="images/azure.png" alt="">
+              <img src="assets/images/azure.png" alt="">
               <h4 class="skill__single-part__title">Microsoft Azure <-- Beginner</h4>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:80%;background-color: #FFAC1B;;">
+                <div class="progress-bar" role="progressbar" style="width:33%;background-color: #FFAC1B;;">
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="thumbnail text-center">
-              <img src="images/python.png" alt="">
+              <img src="assets/images/python.png" alt="">
               <h4 class="skill__single-part__title">Python Language <-- Beginner</h4>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:80%;background-color: #C99AFF;">
+                <div class="progress-bar" role="progressbar" style="width:33%;background-color: #C99AFF;">
                 </div>
               </div>
             </div>
@@ -196,28 +191,28 @@
 
   <section class="service" id="services">
     <div class="container">
-      <div class="page-section">
+      <div class="page-section text-center">
         <h2 class="page-section__title text-center">MY SERVICES</h2>
-        <img class="page-section__title-style" src="images/title-style.png" alt="">
+        <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
         <p class="page-section__paragraph text-center">I can give Services in the following Domains </p>
         <div class="row gutters-70 flex-container-services">
           <div class="col-md-4">
             <div class="thumbnail text-center">
-              <img src="images/htmlcss.png" alt="">
+              <img src="assets/images/htmlcss.png" alt="">
               <h4 class="service__single-section__title">Frontend Development with Html & CSS</h4>
               <p class="service__single-section__paragraph">I will write <strong>Html & CSS</strong> of given <strong>Designs</strong></p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="thumbnail text-center">
-              <img src="images/django.png" alt="">
+              <img src="assets/images/django.png" alt="">
               <h4 class="service__single-section__title">Backend Development with Django(Python)</h4>
               <p class="service__single-section__paragraph">I will do <strong>beginner level</strong> Website <strong>backend</strong> Work in <strong>Django</strong></p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="thumbnail text-center">
-              <img src="images/python.png" alt="">
+              <img src="assets/images/python.png" alt="">
               <h4 class="service__single-section__title">Custom Python Coding</h4>
               <p class="service__single-section__paragraph">I will do <strong>beginner level Programming</strong> in <strong>Python</strong></p>
             </div>
@@ -245,7 +240,7 @@
     </div>
     <hr style="border: 0;border-top: 1px solid #525B60;display:block;margin-top: 40px;">
     <div class="container text-center">
-      <div class="social-icon">
+      <div class="social-icon-footer">
         <ul>
 
           <!--
