@@ -1,0 +1,226 @@
+body {
+  background-color: rgb(20, 0, 49);
+  color: lightslategrey;
+}
+
+nav{
+   height: 50px;
+    display: flex;
+    justify-content: right;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-bottom: 0px;
+    /* position: relative;
+    top:-440px; */
+}
+
+h3{
+    display: inline;
+
+}
+
+h4 {
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  /* position: relative;
+  top: -430px; */
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  /* position: relative;
+  bottom: 380px; */
+}
+
+#landing-page img{
+  display:inline;
+  position: absolute;
+  left: 900px;
+  top: 180px;
+}
+
+.nav-bar{
+    display: inline;    
+    margin-right: 25px;
+    padding-right: 50px;
+    padding: 10px;
+    position: relative;
+}
+
+.nav-bar a{
+  color: rgb(0, 248, 207);
+  font-family: monospace;
+  width: auto;
+  display: inline;
+}
+
+.nav-bar p{
+    color: whitesmoke;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 13px;
+    width: auto;
+}
+
+.nav-bar p:hover{
+    color: rgb(0, 248, 207);
+}
+
+.skill{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: baseline;
+  width: 200px;
+  height: 300px;
+}
+
+.skill p{
+  font-family: monospace;
+  font-weight: 200;
+  font-size: 16px;
+  width: 170px;
+  color: white;
+}
+
+
+#landing-page {
+  background-color: rgb(20, 0, 49);
+  margin: 0px;
+  padding-top: 0px;
+  padding-left: 100px;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+}
+
+#skills{
+    width: 100vw;
+    height: 100vh;
+}
+
+#contact-button {
+  padding: 10px 15px 10px 15px;
+  margin-top: 30px;
+  font-family: monospace;
+  font-weight: 100;
+  background-color: transparent;
+  color: rgb(0, 248, 207);
+  width: 120px;
+  border: 1px solid rgb(0, 248, 207);
+  border-radius: 1mm;
+}
+
+#contact-button:hover {
+  border: 2px solid rgb(0, 248, 207);
+  background-color:rgb(10,0,49);
+  /* rgb(22, 4, 99)*/
+}
+
+#name {
+  padding: 0;
+  height: 30px;
+  width: auto;
+  color: whitesmoke;
+}
+
+#beginning {
+  font: 100;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: monospace;
+  color: rgb(0, 248, 207);
+}
+
+#skills {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+#projects{
+  width: 100%;
+  height: 670px;
+  box-sizing: content-box;
+  margin: 10px;
+}
+p{
+  display: inline;
+  font-size: 24px;
+  color: rgb(0, 248, 207);
+  font-weight: 100;
+  font-family:'Courier New', Courier, monospace;
+}
+
+h2{
+  font-family: 'Inter','sans-serif';
+  font-size: 30px;
+}
+
+#skills-heading{
+  display: flex;
+  justify-content: center;
+}
+
+#skills-box {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#projects-heading{
+  display: flex;
+  justify-content: center;
+}
+
+#site-picture-arena p{
+  width: 80%;
+  height: inherit;
+  color: white;
+  font-weight: 200;
+  font-size: 15px;
+  font-family: monospace;
+}
+
+#site-picture-arena img{
+  padding-bottom: 10px;
+}
+
+#site-picture-arena{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+#contact-page{
+  width: 100%;
+  height: 100vh;
+}
+
+#re-arrange p{
+  font-family: 'Inter','sans-serif';
+  font-size: 16px;
+  font-weight: 400;
+  display: block;
+}
+
+#re-arrange{
+  width: 70%;
+  margin: 0px 200px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
+}
